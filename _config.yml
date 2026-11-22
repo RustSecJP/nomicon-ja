@@ -1,0 +1,16 @@
+title: Rustonomicon（日本語訳）
+lang: ja
+baseurl: /nomicon-ja
+url: https://rustsecjp.github.io
+repo_url: https://github.com/RustSecJP/nomicon-ja
+plugins:
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - .github
+  - README.md
+  - NOTICE.md

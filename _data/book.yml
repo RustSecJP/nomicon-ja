@@ -1,0 +1,80 @@
+short: Rustonomicon
+title: The Rustonomicon
+original_title: The Rustonomicon
+seo_title: The Rustonomicon（Rust 公式ドキュメント「Rustonomicon」日本語訳）
+summary: unsafe Rust のプログラムを正しく書くために知っておくべき細部を掘り下げる Rust 公式ドキュメント「The Rustonomicon」の、非公式な日本語訳。safe と unsafe の関係、データ表現、所有権とライフタイム、型変換、未初期化メモリ、例外安全性、並行性、Vec と Arc の実装、FFI までを全文訳している。
+author: The Rust Project の貢献者
+source: https://github.com/rust-lang/nomicon
+license: MIT または Apache-2.0
+license_url: https://github.com/rust-lang/nomicon/blob/master/LICENSE-MIT
+version: 2026-10-17 時点（コミット b0bb569）
+translated: 2026-11-22
+disclaimer: Rust Project・Rust Foundation・RustSec とは提携していません。
+nav:
+  - {file: intro.html, title: はじめに}
+  - {file: vec/vec.html, title: Vec の実装}
+  - {file: ffi.html, title: FFI}
+chapters:
+  - {file: intro.html, title: "The Rustonomicon"}
+  - {file: meet-safe-and-unsafe.html, title: "Safe と Unsafe のご紹介"}
+  - {file: safe-unsafe-meaning.html, title: "Safe と Unsafe の関わり方"}
+  - {file: what-unsafe-does.html, title: "Unsafe Rust でできること"}
+  - {file: working-with-unsafe.html, title: "Unsafe と付き合う"}
+  - {file: data.html, title: "Rust でのデータ表現"}
+  - {file: repr-rust.html, title: "repr(Rust)"}
+  - {file: exotic-sizes.html, title: "風変わりなサイズの型"}
+  - {file: other-reprs.html, title: "そのほかの表現"}
+  - {file: ownership.html, title: "所有権とライフタイム"}
+  - {file: references.html, title: "参照"}
+  - {file: aliasing.html, title: "エイリアシング"}
+  - {file: lifetimes.html, title: "ライフタイム"}
+  - {file: lifetime-mismatch.html, title: "ライフタイムの限界"}
+  - {file: lifetime-elision.html, title: "ライフタイムの省略"}
+  - {file: unbounded-lifetimes.html, title: "境界のないライフタイム"}
+  - {file: hrtb.html, title: "高階トレイト境界（HRTB）"}
+  - {file: subtyping.html, title: "部分型付けと変性"}
+  - {file: dropck.html, title: "ドロップチェック"}
+  - {file: phantom-data.html, title: "PhantomData"}
+  - {file: borrow-splitting.html, title: "借用の分割"}
+  - {file: conversions.html, title: "型変換"}
+  - {file: coercions.html, title: "型強制"}
+  - {file: dot-operator.html, title: "ドット演算子"}
+  - {file: casts.html, title: "キャスト"}
+  - {file: transmutes.html, title: "トランスミュート"}
+  - {file: uninitialized.html, title: "未初期化メモリを扱う"}
+  - {file: checked-uninit.html, title: "検査のある未初期化メモリ"}
+  - {file: drop-flags.html, title: "ドロップフラグ"}
+  - {file: unchecked-uninit.html, title: "検査のない未初期化メモリ"}
+  - {file: obrm.html, title: "所有権に基づくリソース管理（OBRM）の危険"}
+  - {file: constructors.html, title: "コンストラクタ"}
+  - {file: destructors.html, title: "デストラクタ"}
+  - {file: leaking.html, title: "リーク"}
+  - {file: unwinding.html, title: "巻き戻し"}
+  - {file: exception-safety.html, title: "例外安全性"}
+  - {file: poisoning.html, title: "ポイズニング"}
+  - {file: concurrency.html, title: "並行性と並列性"}
+  - {file: races.html, title: "データ競合と競合状態"}
+  - {file: send-and-sync.html, title: "Send と Sync"}
+  - {file: atomics.html, title: "アトミック"}
+  - {file: vec/vec.html, title: "例: Vec を実装する"}
+  - {file: vec/vec-layout.html, title: "Vec: レイアウト"}
+  - {file: vec/vec-alloc.html, title: "Vec: メモリの割り当て"}
+  - {file: vec/vec-push-pop.html, title: "Vec: push と pop"}
+  - {file: vec/vec-dealloc.html, title: "Vec: 解放"}
+  - {file: vec/vec-deref.html, title: "Vec: Deref"}
+  - {file: vec/vec-insert-remove.html, title: "Vec: insert と remove"}
+  - {file: vec/vec-into-iter.html, title: "Vec: IntoIter"}
+  - {file: vec/vec-raw.html, title: "Vec: RawVec"}
+  - {file: vec/vec-drain.html, title: "Vec: Drain"}
+  - {file: vec/vec-zsts.html, title: "Vec: サイズが 0 の型を扱う"}
+  - {file: vec/vec-final.html, title: "Vec: 最終的なコード"}
+  - {file: arc-mutex/arc-and-mutex.html, title: "Arc と Mutex を実装する"}
+  - {file: arc-mutex/arc.html, title: "Arc を実装する"}
+  - {file: arc-mutex/arc-layout.html, title: "Arc: レイアウト"}
+  - {file: arc-mutex/arc-base.html, title: "Arc: 基本のコード"}
+  - {file: arc-mutex/arc-clone.html, title: "Arc: クローン"}
+  - {file: arc-mutex/arc-drop.html, title: "Arc: ドロップ"}
+  - {file: arc-mutex/arc-final.html, title: "Arc: 最終的なコード"}
+  - {file: ffi.html, title: "他言語関数インターフェース（Foreign Function Interface）"}
+  - {file: beneath-std.html, title: "std の下"}
+  - {file: panic-handler.html, title: "#[panic_handler]"}
