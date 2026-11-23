@@ -1,0 +1,1 @@
+window.RUSTSECJP = { originalTitle: 'The Rustonomicon', originalUrl: 'https://doc.rust-lang.org/nomicon/', originalBase: 'https://doc.rust-lang.org/nomicon/', version: '2026-10-17 時点の原文・コミット b0bb569', depth: 2 };

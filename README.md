@@ -25,8 +25,12 @@ The Rustonomicon（通称 Nomicon）は、unsafe Rust のプログラムを正�
 - 原著者: The Rust Project の貢献者
 - ライセンス: MIT または Apache-2.0。全文は [LICENSE-MIT.txt](LICENSE-MIT.txt) と [LICENSE-APACHE.txt](LICENSE-APACHE.txt)。
 - 訳した版: 2026-10-17 時点（コミット b0bb569883a3e65ab19d4f1adf1b8dbc1629d0a6）
-- 変更点: 日本語への翻訳。mdBook から Jekyll 向けの書式への変換。詳しくは [NOTICE.md](NOTICE.md)。
+- 変更点: 日本語への翻訳。サイトは原文と同じ mdBook と原文のテーマで作っている。詳しくは [NOTICE.md](NOTICE.md)。
 
 誤訳の指摘や訳語の提案は、Issue か Pull Request でお願いします。
 
 RustSecJP は非公式のコミュニティです。Rust Project、Rust Foundation、RustSec とは提携していません。
+
+## 手元で読む・作る
+
+[mdBook](https://github.com/rust-lang/mdBook) 0.5.1 で `mdbook build`（出力は `book/`）か `mdbook serve`。
