@@ -1,6 +1,6 @@
 # Drain {#drain}
 
-次は Drain に進みましょう。Drain は IntoIter とほとんど同じですが、Vec を消費する代わりに Vec を借用し、その確保領域には手を付けません。今のところは、範囲全体を対象とする「基本」版だけを実装します。
+次は Drain に進みましょう。Drain は IntoIter とほとんど同じですが、Vec を消費する代わりに Vec を借用し、その割り当てには手を付けません。今のところは、範囲全体を対象とする「基本」版だけを実装します。
 
 <!-- ignore: simplified code -->
 ```rust,ignore

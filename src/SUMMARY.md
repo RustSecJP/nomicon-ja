@@ -26,7 +26,7 @@
   * [型強制](coercions.md)
   * [ドット演算子](dot-operator.md)
   * [キャスト](casts.md)
-  * [トランスミュート](transmutes.md)
+  * [transmute](transmutes.md)
 * [未初期化メモリを扱う](uninitialized.md)
   * [検査のある未初期化メモリ](checked-uninit.md)
   * [ドロップフラグ](drop-flags.md)
