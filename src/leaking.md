@@ -114,11 +114,9 @@ impl<T> Drop for Rc<T> {
 
 ## thread::scoped::JoinGuard {#threadscopedjoinguard}
 
-> 注: この API はすでに std から削除されています。詳しくは
-> [issue #24292](https://github.com/rust-lang/rust/issues/24292) を参照してください。
+> 注: この API はすでに std から削除されています。詳しくは[issue #24292](https://github.com/rust-lang/rust/issues/24292) を参照してください。
 >
-> この節をここに残しているのは、std の一部であるかどうかにかかわらず、
-> この例が今も重要だと考えているからです。
+> この節をここに残しているのは、std の一部であるかどうかにかかわらず、この例が今も重要だと考えているからです。
 
 thread::scoped API は、親のスタック上にあるデータを参照するスレッドを、そのデータについて同期を一切とらずに起動できるようにするためのものでした。そのために、共有されたデータのどれかがスコープを抜ける前に、親がそのスレッドを確実に join するようにしていました。
 
