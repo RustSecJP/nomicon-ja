@@ -1,0 +1,12 @@
+{
+  "upstreams": [
+    {
+      "repo": "rust-lang/nomicon",
+      "branch": "master",
+      "paths": [
+        "src"
+      ],
+      "base": "b0bb569883a3e65ab19d4f1adf1b8dbc1629d0a6"
+    }
+  ]
+}
