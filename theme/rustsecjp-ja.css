@@ -1,3 +1,6 @@
-/* RustSecJP: 原文のテーマに足すのはこの帯だけ */
+/* RustSecJP: 原文のテーマに足すのはこの帯だけ(団体のアイコンと、誤訳を知らせるリンクを含む) */
 .rustsecjp-notice { margin: 0 0 1.5em; padding: .6em 1em; border-left: 4px solid var(--quote-border, #ccc); background: var(--quote-bg, #f5f5f5); font-size: .875em; line-height: 1.6; }
 .rustsecjp-notice a { white-space: nowrap; }
+/* 団体のアイコン: 画像は透明な背景に白のマーク。明るいテーマでは反転して黒にする */
+.rustsecjp-notice .rustsecjp-mark { height: 1.25em; width: 1.25em; vertical-align: text-bottom; margin-right: .25em; filter: invert(1); }
+.coal .rustsecjp-notice .rustsecjp-mark, .navy .rustsecjp-notice .rustsecjp-mark, .ayu .rustsecjp-notice .rustsecjp-mark { filter: none; }
